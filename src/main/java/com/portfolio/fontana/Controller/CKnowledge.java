@@ -22,7 +22,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/services")
-@CrossOrigin(origins = {"https://portfolio-frontend-cc3de.web.app","http://localhost:4200"})
+@CrossOrigin(origins = "*")
 public class CKnowledge {
     @Autowired
     SKnowledge sKnowledge;

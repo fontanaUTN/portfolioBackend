@@ -21,7 +21,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/about")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://federico.progresodigital.net")
 public class CAbout {
     @Autowired
     SAbout sAbout;

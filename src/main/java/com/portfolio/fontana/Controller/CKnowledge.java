@@ -22,7 +22,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/services")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://federico.progresodigital.net")
 public class CKnowledge {
     @Autowired
     SKnowledge sKnowledge;
